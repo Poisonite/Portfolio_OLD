@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset = "UTF-8">
-        <meta name="Zac Ingoglia Resume" content="employee, worker, good, great">
+        <meta charset="utf-8"/>
+        <meta name="Zac Ingoglia Resume" content="employee, worker, good, great"/>
         <title>My Resume</title>
-
         <style>
-            time
+            time, em#references
             {
                 color:gray
             }
@@ -22,14 +21,22 @@
             {
                 color:forestgreen
             }
+            #name
+            {
+                color:midnightblue
+            }
+            a
+            {
+                color:orangered
+            }
         </style>
     </head>
     <body>
         <header>
-            <h1>Zac Ingoglia</h1>
+            <h1 id="name">Zac Ingoglia</h1>
             <h2>Resume</h2>
-            <time datetime="2019-08-20">Page Last Updated August 20<sup>th</sup> 2019</time>
-            <hr>
+            <time datetime="2019-08-21">Page Last Updated August 21<sup>th</sup> 2019</time>
+            <hr/>
         </header>
         <article>
             <h3>Work Experience</h3>
@@ -44,10 +51,16 @@
             <h3>Education</h3>
             <dl>
                 <dt>Mountain Ridge High School &mdash; <em>Glendale, AZ</em></dt>
-                <dd>August 2018 &mdash; May 2021</dd>
+                <dd>August 2017 &mdash; May 2021</dd>
                 <dt>WestMec Coding Year 1 &mdash; <em>Phoenix, AZ</em></dt>
                 <dd>August 2019 &mdash; May 2020</dd>
             </dl>
         </article>
+        <footer>
+            <hr/>
+            Content and design by: <strong id="name">Zac Ingoglia</strong><br/>
+            Contact me at: <a href="mailto:zacace@ingoglia.com">zacace@ingoglia.com</a><br/>
+            <em id="references">References may be furnished upon request</em>
+        </footer>
     </body>
 </html>
