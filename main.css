@@ -1,0 +1,24 @@
+time, em#references{
+    color:gray;
+}
+em{
+    color:royalblue;
+}
+#name{
+    color:midnightblue;
+}
+a{
+    color:orangered;
+}
+a#jobTitles{
+    text-decoration:none
+}
+#mainNav{
+    color:firebrick;
+}
+#jobTitle{
+    color:steelblue;
+}
+dd{
+    color:forestgreen;
+}
