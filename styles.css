@@ -1,3 +1,13 @@
+html{
+    background-color: rgb(85, 205, 255);
+}
+body{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgba(225, 230, 15, 0.8);
+}
 time, em#references{
     color:gray;
 }
@@ -11,7 +21,7 @@ a{
     color:orangered;
 }
 a#jobTitles{
-    text-decoration:none
+    text-decoration:none;
 }
 #mainNav{
     color:firebrick;
